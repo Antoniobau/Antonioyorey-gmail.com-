@@ -1,8 +1,0 @@
-from scapy.all import rdpcap
-
-# Reemplaza 'tu_archivo.pcap' con la ruta a tu archivo .pcap
-packets = rdpcap('tu_archivo.pcap')
-
-for packet in packets:
-    print(packet.summary())
-
